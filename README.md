@@ -32,7 +32,7 @@ Select All Records | SqlRepo | 50.34ms | 6260.17ms
 Select TOP 1 | Dapper | 0.3ms | 40.43ms
 Select TOP 1 | EF Core | 0.66ms | 73.73ms
 Select TOP 1 | SqlRepo | 0.35ms | 42.85ms
-Select TOP 1 | SqlRepo (Raw SQL with Entity Mapper) | 0.32ms | 40.16ms
+Select TOP 1 | SqlRepo (Raw SQL) | 0.32ms | 40.16ms
 
 | Test        | Library           | Best Recorded Test (ms)  | Total Time Taken (ms)  |
 | ------------- |:-------------:| -----:| -----:|
