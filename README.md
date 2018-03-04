@@ -1,8 +1,11 @@
 # Benchmarks
-This repository contains the .NET application for running the SqlRepo performance benchmarks. The aim is to use realistic scenarios to compare performance.
+This repository contains the .NET application for running the [SqlRepo](https://github.com/SqlRepo/sqlrepo) performance benchmarks. The aim is to use realistic scenarios to compare performance.
+
+## What is SqlRepo?
+Find more information about SqlRepo here: [SqlRepo](https://github.com/SqlRepo/sqlrepo)
 
 ## Compared Libraries
-* SqlRepo
+* [SqlRepo](https://github.com/SqlRepo/sqlrepo)
 * Dapper
 * EF Core 2.0
 
