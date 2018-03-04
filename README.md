@@ -29,3 +29,9 @@ Select All Records | SqlRepo | 262ms
 Select TOP 5000 | Dapper | 4.07ms
 Select TOP 5000 | EF Core | 12.87ms
 Select TOP 5000 | SqlRepo | 4.04ms
+
+| Test        | Library           | Time Taken (ms)  |
+| ------------- |:-------------:| -----:|
+Select DecimalValue From All Records | Dapper | 94.61ms
+Select DecimalValue From All Records  | EF Core | 184.99ms
+Select DecimalValue From All Records  | SqlRepo | 94.02ms
