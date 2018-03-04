@@ -18,7 +18,7 @@ We welcome any feedback to the benchmarks, and any contributions to add other li
 
 Each test is run against a SQL database containing 250k records. The tests are run 105 times, with the first 5 tests being ignored to allow for JIT and any dynamic IL.
 
-Test Machine is a VM with 2 cores running on an i7 7700k. Last run on 4th March 2018.
+Test Machine is a VM with 4 cores running on an i7 7700k. Last run on 4th March 2018.
 
 
 | Test        | Library           | Best Recorded Test (ms)  | Total Time Taken (ms)  |
