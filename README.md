@@ -16,25 +16,25 @@ We welcome any feedback to the benchmarks, and any contributions to add other li
 
 ## Results
 
-Each test is run against a SQL database containing 250k records. The tests are run 100 times and the best result is used.
+Each test is run against a SQL database containing 250k records. The tests are run 105 times, with the first 5 tests being ignored to allow for JIT and any dynamic IL.
 
-Test Machine is a VM with 2 cores running on an i7 7700k. Last run on 4th March 2018.
+Test Machine is a VM with 4 cores running on an i7 7700k. Last run on 4th March 2018.
 
 
-| Test        | Library           | Time Taken (ms)  |
-| ------------- |:-------------:| -----:|
-Select All Records | Dapper | 259ms
-Select All Records | EF Core | 890ms
-Select All Records | SqlRepo | 262ms
+| Test        | Library           | Best Recorded Test (ms)  | Total Time Taken (ms)  |
+| ------------- |:-------------:| -----:| -----:|
+Select All Records | Dapper | Xms | Xms
+Select All Records | EF Core | Xms | Xms
+Select All Records | SqlRepo | Xms | Xms
 
-| Test        | Library           | Time Taken (ms)  |
-| ------------- |:-------------:| -----:|
-Select TOP 5000 | Dapper | 4.07ms
-Select TOP 5000 | EF Core | 12.87ms
-Select TOP 5000 | SqlRepo | 4.04ms
+| Test        | Library           | Best Recorded Test (ms)  | Total Time Taken (ms)  |
+| ------------- |:-------------:| -----:| -----:|
+Select TOP 5000 | Dapper | Xms | Xms
+Select TOP 5000 | EF Core | Xms | Xms
+Select TOP 5000 | SqlRepo | Xms | Xms
 
-| Test        | Library           | Time Taken (ms)  |
-| ------------- |:-------------:| -----:|
-Select DecimalValue From All Records | Dapper | 94.61ms
-Select DecimalValue From All Records  | EF Core | 184.99ms
-Select DecimalValue From All Records  | SqlRepo | 94.02ms
+| Test        | Library           | Best Recorded Test (ms)  | Total Time Taken (ms)  |
+| ------------- |:-------------:| -----:| -----:|
+Select DecimalValue From All Records | Dapper | Xms | Xms
+Select DecimalValue From All Records  | EF Core | Xms | Xms
+Select DecimalValue From All Records  | SqlRepo | Xms | Xms
